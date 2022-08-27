@@ -118,7 +118,11 @@ git log --all --oneline --graph
 
 Переключение веток 
 
+<<<<<<< HEAD
 git checkout  (имя ветки)
+=======
+git checkout (имя ветки)
+>>>>>>> br_header
 
 
 Создание и сразу переключение ветки
@@ -133,10 +137,13 @@ git checkout  (имя ветки)
 Развлетвление смотреть
 
  git log --oneline --all
+<<<<<<< HEAD
 
 Слияние веток:
 
  git merge
+=======
+>>>>>>> br_header
 
 ## Разрешение конфликта
 
