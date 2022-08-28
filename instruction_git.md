@@ -10,7 +10,7 @@ git config --global user.name "Kostya"
 
 Присвоение почты (в ковычках указывать почту)
 
-git config --global user.email "kostya_pgs@mail.ru"
+git config --globalgit push -u origin main user.email "kostya_pgs@mail.ru"
 
 ## Иницилизация репозитория
 
@@ -109,7 +109,7 @@ Ctri+s -сохранение файла.
 git branch
 
 
-Просмотрт ответвлений 
+Просмотр ответвлений:
 
 git log --all --oneline --graph
 
@@ -152,3 +152,7 @@ git checkout  (имя ветки)
 Удаление веток:
 
 git branch -d
+
+
+## удаленные репозитории
+
